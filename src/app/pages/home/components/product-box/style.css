@@ -1,0 +1,7 @@
+.img-cont {
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+}
+.img-cont > img {
+  border-radius: 0.2rem;
+}
