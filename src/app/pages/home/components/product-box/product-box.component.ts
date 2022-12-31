@@ -8,15 +8,8 @@ import { Product } from 'src/app/models/product.model'
 })
 
 export class ProductBoxComponent {
-@Input() fullWidthMode = false;
-  product: Product | undefined = {
-    id: 1,
-    title: 'nike air',
-    price: 200,
-    category: 'shoes',
-    description: "il s'agit de la paire la plus recherchée de l'univers tout entier",
-    image: 'https://via.placeholder.com/150'
-  };
+  @Input() fullWidthMode = false;
+  @Input() product: Product | undefined;
   @Output() addToCart = new EventEmitter();
 
   onAddToCard(): void {
