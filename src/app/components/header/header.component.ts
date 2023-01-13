@@ -5,8 +5,7 @@ import { CartService } from 'src/app/services/cart.service';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styles: [
-  ]
+  styleUrls: ['styles.css']
 })
 export class HeaderComponent {
 

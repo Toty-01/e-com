@@ -5,3 +5,18 @@
 .img-cont > img {
   border-radius: 0.2rem;
 }
+.cats {
+  margin-top: 1rem;
+  color: rgb(150, 147, 141);
+}
+.main-img {
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: contain;
+}
+.text-gray-500:hover {
+  transition: all 1s;
+  color: white;
+  background-color: green;
+  border-radius: 50%;
+}

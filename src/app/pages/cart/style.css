@@ -6,3 +6,7 @@
 .imgs {
   max-height: 80px;
 }
+.truncate {
+  max-width: 140px;
+  text-align: justify;
+}

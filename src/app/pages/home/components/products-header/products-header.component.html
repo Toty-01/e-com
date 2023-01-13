@@ -13,13 +13,13 @@
     <div class="flex items-center">
       <div>
         <button class="m-2" mat-button [mat-menu-trigger-for]="menu">
-           Show {{ itemsShowCount }}
+           Voir {{ itemsShowCount }}
            <mat-icon>expand_more</mat-icon>
         </button>
         <mat-menu #menu="matMenu" class="m-2">
-          <button (click)="onItemsUpdated(12)" mat-menu-item>12</button>
-          <button (click)="onItemsUpdated(24)" mat-menu-item>24</button>
-          <button (click)="onItemsUpdated(36)" mat-menu-item>36</button>
+          <button (click)="onItemsUpdated(12)" mat-menu-item>Voir 12</button>
+          <button (click)="onItemsUpdated(24)" mat-menu-item>Voir 24</button>
+          <button (click)="onItemsUpdated(36)" mat-menu-item>Voir 36</button>
         </mat-menu>
       </div>
       <button (click)="onColumnsUpdated(1)">
