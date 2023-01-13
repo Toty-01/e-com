@@ -2,12 +2,11 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Product } from 'src/app/models/product.model'
 
 @Component({
-  selector: 'app-product-box',
-  templateUrl: `product-box.component.html`,
-  styleUrls: ['style.css'],
+  selector: 'app-resumecart',
+  templateUrl: `resumecart.component.html`,
+  styleUrls: ['style.css']
 })
-
-export class ProductBoxComponent {
+export class ResumecartComponent {
   @Input() fullWidthMode = false;
   @Input() product: Product | undefined;
   @Output() addToCart = new EventEmitter();
@@ -15,4 +14,5 @@ export class ProductBoxComponent {
   onAddToCard(): void {
     this.addToCart.emit(this.product);
   }
+
 }

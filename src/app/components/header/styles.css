@@ -1,6 +1,10 @@
 .title {
   margin-left: 3rem;
-  background-color: rgb(160, 111, 147);
+  background-color: rgb(132, 174, 240);
   padding: 0.3rem 0.6rem;
   border-radius: 0.5rem;
+}
+.title:hover {
+  background-color: rgb(77, 121, 232);
+  color: rgb(38, 38, 38);
 }
