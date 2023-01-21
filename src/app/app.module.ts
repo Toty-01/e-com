@@ -26,6 +26,7 @@ import { CartService } from './services/cart.service';
 import { StoreService } from './services/store.service';
 import { HttpClientModule } from '@angular/common/http';
 import { ResumecartComponent } from './pages/resumecart/resumecart.component';
+import { PayementComponent } from './pages/payement/payement.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ResumecartComponent } from './pages/resumecart/resumecart.component';
     FiltersComponent,
     ProductBoxComponent,
     CartComponent,
-    ResumecartComponent
+    ResumecartComponent,
+    PayementComponent
   ],
   imports: [
     BrowserModule,

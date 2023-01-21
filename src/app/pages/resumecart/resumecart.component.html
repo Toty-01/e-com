@@ -1,6 +1,6 @@
 <h1 *ngIf="cart.items.length" class="mt-5 text-center mb-5">Résumé de votre commande</h1>
 
-<mat-card *ngIf="cart.items.length" class="max-w-7xl mx-auto">
+<mat-card *ngIf="cart.items.length" class="max-w-6xl mx-auto">
   <table mat-table [dataSource]="dataSource" class="mat-elevation-z8 w-full">
    
     <ng-container matColumnDef="product">
@@ -9,7 +9,6 @@
         <img src="{{ element.product }}" alt="product" class="w-[100px] my-5" />
       </td>
       <td mat-footer-cell *matFooterCellDef>
-        <button class="mb-5" mat-raised-button routerLink="/home">Continuer Achats</button>
       </td>
     </ng-container>
    
@@ -63,7 +62,7 @@
   </table>
   <p class="resume">Le montant total de la commande est de <strong>{{ getTotal(cart.items) }}</strong> €</p>
     <div class="elbot">
-      <button mat-raised-button routerLink="/resumecart" color="primary" class="btnbottom">
+      <button mat-raised-button routerLink="/payement" color="primary" class="btnbottom">
         Payement
       </button>
     </div>
