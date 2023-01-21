@@ -10,7 +10,8 @@ const routes: Routes = [
 { path: 'cart', component: CartComponent },
 { path: 'resumecart', component: ResumecartComponent },
 { path: 'payement', component: PayementComponent },
-{ path: '', redirectTo: 'home', pathMatch: 'full' }
+{ path: '', redirectTo: 'home', pathMatch: 'full' },
+{ path: '**', redirectTo: 'home' },
 ];
 
 @NgModule({
