@@ -1,0 +1,24 @@
+.quant {
+  margin: 0.5rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+.imgs {
+  max-height: 80px;
+}
+.truncate {
+  max-width: 140px;
+  text-align: justify;
+}
+.resume {
+  text-align: center;
+  margin: 2rem;
+}
+.elbot {
+  display: flex;
+  justify-content: center;
+}
+.btnbottom {
+  width: 100px;
+  margin-bottom: 3rem;
+}

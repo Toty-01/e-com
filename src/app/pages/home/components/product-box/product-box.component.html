@@ -8,7 +8,7 @@
       <div>
         <h5 class="cats">{{product.category}}</h5>
         <p class="truncate hover:whitespace-normal">{{product.title}}</p>
-        <p *ngIf="fullWidthMode">
+        <p *ngIf="fullWidthMode" class="trunc">
           {{product.description}}
         </p>
       </div>
