@@ -9,7 +9,7 @@ export class ProductsHeaderComponent {
   @Output() itemsCountChange = new EventEmitter<number>();
   @Output() sortChange = new EventEmitter<string>();
 
-   sort = 'ordre';
+   sort = 'asc';
    itemsShowCount = 12;
   
    onSortUpdated(newSort: string): void {

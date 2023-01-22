@@ -23,4 +23,15 @@
 .trunc {
   max-width: 400px;
   text-align: justify;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.titre {
+  margin-left: 1rem;
+  font-weight: 600;
+}
+.ic {
+  width: 4rem;
 }
