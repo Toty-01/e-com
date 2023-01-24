@@ -1,6 +1,12 @@
-<h1 *ngIf="cart.items.length" class="mt-5 text-center mb-5">Résumé de votre commande</h1>
+<h2 *ngIf="cart.items.length" class="mt-5 text-center mb-5">Résumé de votre commande</h2>
+
 
 <mat-card *ngIf="cart.items.length" class="max-w-6xl mx-auto">
+  <div class="btn">
+    <button routerLink="/cart" mat-raised-button color="warn" class="top-btn float-right">
+      Revenir au Panier
+    </button>
+  </div>
   <table mat-table [dataSource]="dataSource" class="mat-elevation-z8 w-full">
    
     <ng-container matColumnDef="product">
@@ -46,10 +52,7 @@
     </ng-container>
     
     <ng-container matColumnDef="action">
-      <th mat-header-cell *matHeaderCellDef>
-        <button routerLink="/cart" mat-raised-button color="warn" class="float-right">
-          Revenir au Panier
-        </button></th>
+      <th mat-header-cell *matHeaderCellDef></th>
       <td mat-cell *matCellDef="let element">
       </td>
       <td mat-footer-cell *matFooterCellDef>

@@ -25,3 +25,12 @@
 .resume {
   font-size: 1.2rem;
 }
+.top-btn {
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+  padding: 0.7rem 1rem;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
